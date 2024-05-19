@@ -3,10 +3,36 @@
     --background12text-color: #FFFFFF;
     --h2pform-color: #2E363E;
     --inputform-color: #7E868E;
-    --lasta-color: #842231;
+    --lastabuttonimg-color: #842231;
     --buttonfirstsection-background: #DBA069;
     --section3-background: rgba(132, 34, 49, 0.05);
     --section5-background: #F9F4F4;
     --input-background: #F2F6FA;
 }
+/* font-family: "Fira Sans", sans-serif; */
+/* font-family: "Didact Gothic", sans-serif; */
 
+.hero-section {
+    background-color: var(--section5-background);
+}
+
+.kotedgy-section {
+    background-color: var(--section3-background);
+}
+
+.profit-section {
+    background-color: var(--section5-background);
+}
+
+.header {
+    background-color: var(--section3-background);
+}
+
+/* хедер */
+.header-item  {
+    color: var(--background12text-color);
+font-family: "Fira Sans", sans-serif;;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+}
